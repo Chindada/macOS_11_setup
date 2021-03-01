@@ -3,6 +3,9 @@
 # Xcode (12.4)
 mas install 497799835
 
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+
 # Microsoft Remote Desktop (10.5.1)
 mas install 1295203466
 # Speedtest (1.19)

@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# brew install coreutils
-# brew install curl
 brew install git
 brew install gnu-sed
 brew install mas
