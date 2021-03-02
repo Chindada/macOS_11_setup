@@ -25,9 +25,12 @@ brew install --cask rectangle
 brew install --cask keyboardcleantool
 brew install --cask alfred
 brew install --cask appcleaner
-brew install --cask anydesk
+
 brew install --cask visual-studio-code
 brew install --cask valentina-studio
+brew install --cask sourcetree
+
+brew install --cask anydesk
 brew install --cask skype
 
 brew install --cask homebrew/cask-versions/adoptopenjdk8
