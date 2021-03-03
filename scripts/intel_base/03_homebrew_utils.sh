@@ -1,7 +1,5 @@
 #!/bin/sh
 
-brew install coreutils
-brew install curl
 brew install git
 brew install gnu-sed
 brew install mas
@@ -26,23 +24,5 @@ brew install --cask keyboardcleantool
 brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask anydesk
-brew install --cask visual-studio-code
-brew install --cask valentina-studio
-brew install --cask sourcetree
-
-brew install --cask homebrew/cask-versions/adoptopenjdk8
-brew install --cask android-sdk
-
-gsed -i '$ a export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"' ~/.zshrc
-
-sdkmanager
-touch ~/.android/repositories.cfg
-sdkmanager --update
-
-sdkmanager "build-tools;30.0.3"
-sdkmanager "platforms;android-30"
-sdkmanager "platform-tools"
-
-sudo gem install cocoapods
 
 
