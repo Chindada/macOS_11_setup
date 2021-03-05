@@ -22,9 +22,9 @@ grep "^plugins=(git" ~/.zshrc
 gsed -i "/^plugins=(git/c plugins=(git colored-man-pages python brew osx)" ~/.zshrc
 
 brew install --cask rectangle
-brew install --cask keyboardcleantool
 brew install --cask alfred
 brew install --cask appcleaner
+brew install --cask one-switch
 
 brew install --cask visual-studio-code
 brew install --cask valentina-studio
