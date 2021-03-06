@@ -5,14 +5,14 @@
 ```sh
 sudo xcode-select --install
 sudo softwareupdate --install-rosetta
-git clone https://github.com/Chindada/macOS_11_setup.git ~/macOS_11_setup
+git clone https://github.com/Chindada/macOS_11_setup.git ~/dev_projects/macOS_11_setup
 chmod -R 777 ~/macOS_11_setup
 ```
 ## Steps
 
 ```sh
 rm -rf ~/macOS_11_setup
-git clone git@github.com:Chindada/macOS_11_setup.git ~/macOS_11_setup
+git clone git@github.com:Chindada/macOS_11_setup.git ~/dev_projects/macOS_11_setup
 ```
 
 ```sh
