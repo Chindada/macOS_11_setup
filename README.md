@@ -1,5 +1,5 @@
 # **macOS Big Sur Developer Setup**
-![macOS Big Sur Developer Setup](./attachments/s025.png "macOS Big Sur Developer Setup")
+![macOS Big Sur Developer Setup](./attachments/s026.png "macOS Big Sur Developer Setup")
 **Clone this project**
 ---
 ```sh
