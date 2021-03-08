@@ -2,7 +2,6 @@
 
 # Xcode (12.4)
 mas install 497799835
-
 sudo xcodebuild -license
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
