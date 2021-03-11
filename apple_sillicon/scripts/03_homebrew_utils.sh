@@ -33,7 +33,7 @@ brew install --cask sourcetree
 
 brew install --cask anydesk
 brew install --cask skype
-brew install --cask google-chrome
+# brew install --cask google-chrome
 
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 brew install --cask android-sdk
