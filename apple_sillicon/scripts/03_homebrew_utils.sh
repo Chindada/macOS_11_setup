@@ -26,6 +26,7 @@ brew install --cask rectangle
 brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask one-switch
+brew install --cask cheatsheet
 
 brew install --cask visual-studio-code
 brew install --cask valentina-studio
