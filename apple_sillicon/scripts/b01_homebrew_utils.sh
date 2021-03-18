@@ -1,7 +1,10 @@
 #!/bin/sh
 
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
+eval $(/opt/homebrew/bin/brew shellenv)
+
 brew install git
-git config --global user.name "TimHsu@MBP"
+git config --global user.name "TimHsu@M1BP"
 git config --global user.email "maochindada@gmail.com"
 
 brew install gnu-sed
@@ -47,7 +50,7 @@ sdkmanager
 touch ~/.android/repositories.cfg
 sdkmanager --update
 
-sdkmanager "build-tools;31.0.0-rc1"
+sdkmanager "build-tools;30.0.3"
 sdkmanager "platforms;android-30"
 sdkmanager "platform-tools"
 
