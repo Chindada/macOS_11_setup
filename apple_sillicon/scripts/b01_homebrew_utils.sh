@@ -26,6 +26,7 @@ gsed -i '/^ZSH_THEME/c ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
 
 
 brew install mas
+brew install smartmontools
 
 brew install --cask rectangle
 brew install --cask alfred

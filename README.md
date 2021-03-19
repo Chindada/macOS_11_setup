@@ -28,6 +28,9 @@ flutter pub global activate devtools
 go get -u github.com/beego/beego/v2
 go get -u github.com/beego/bee/v2
 ```
+```sh
+smartctl -a disk3s1s1
+```
 ## Deployment
 
 
