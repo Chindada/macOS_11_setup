@@ -11,7 +11,7 @@ brew install gnu-sed
 gsed -i '1 i ZSH_DISABLE_COMPFIX="true"' ~/.zshrc
 
 # grep "^plugins=(git" ~/.zshrc
-gsed -i "/^plugins=(git/c plugins=(git colored-man-pages python brew osx)" ~/.zshrc
+gsed -i "/^plugins=(git/c plugins=(git colored-man-pages brew osx)" ~/.zshrc
 
 brew install zsh-autosuggestions
 gsed -i '$ a source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' ~/.zshrc
@@ -26,20 +26,20 @@ gsed -i '/^ZSH_THEME/c ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
 
 
 brew install mas
-brew install smartmontools
+# brew install smartmontools
 
 brew install --cask rectangle
 brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask one-switch
-brew install --cask cheatsheet
+# brew install --cask cheatsheet
 
 brew install --cask visual-studio-code
 brew install --cask valentina-studio
-brew install --cask sourcetree
+# brew install --cask sourcetree
 
 brew install --cask anydesk
-brew install --cask skype
+# brew install --cask skype
 brew install --cask google-chrome
 
 brew install --cask homebrew/cask-versions/adoptopenjdk8
