@@ -9,5 +9,4 @@
 . ./07_ohmyzsh.sh
 . ./08_ohmyzsh_post.sh
 . ./09_ssh_key_gen.sh
-. ./10_clone_codes.sh
 . ./install.sh
