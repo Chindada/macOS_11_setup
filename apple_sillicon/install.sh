@@ -1,12 +1,11 @@
 #!/bin/sh
 
-. ./01_homebrew.sh
-. ./02_homebrew_utils.sh
-. ./03_golang.sh
-. ./04_flutter.sh
+. ./01_ohmyzsh.sh
+. ./02_homebrew.sh
+. ./03_homebrew_utils.sh
+. ./04_env.sh
 . ./05_fonts.sh
-. ./06_mas_apps.sh
-. ./07_ohmyzsh.sh
-. ./08_ohmyzsh_post.sh
+. ./06_golang.sh
+. ./07_flutter.sh
+. ./08_mas_apps.sh
 . ./09_ssh_key_gen.sh
-. ./install.sh

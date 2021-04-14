@@ -7,4 +7,3 @@ curl -fSL https://storage.googleapis.com/flutter_infra/releases/stable/macos/flu
 unzip flutter.zip -d /Users/$USER/flutter_sdk
 rm -rf flutter.zip
 
-gsed -i '$ a export PATH="$PATH:/Users/'$USER'/flutter_sdk/flutter/bin"' ~/.zshrc
