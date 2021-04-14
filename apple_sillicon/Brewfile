@@ -1,0 +1,31 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+brew "git"
+brew "gnu-sed"
+brew "mas"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+cask "adoptopenjdk8"
+cask "alfred"
+cask "android-sdk"
+cask "anydesk"
+cask "appcleaner"
+cask "google-chrome"
+cask "iterm2"
+cask "one-switch"
+cask "rectangle"
+cask "valentina-studio"
+cask "visual-studio-code"
+mas "Apple Configurator 2", id: 1037126344
+mas "GoodNotes", id: 1444383602
+mas "LINE", id: 539883307
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "Speedtest", id: 1153157709
+mas "WeChat", id: 836500024
+mas "Xcode", id: 497799835

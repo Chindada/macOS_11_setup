@@ -7,7 +7,7 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
 
 # Apple Configurator 2 (2.13.3)
-mas install 1037126344
+# mas install 1037126344
 
 # Microsoft Remote Desktop (10.5.1)
 mas install 1295203466
