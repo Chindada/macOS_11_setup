@@ -1,12 +1,5 @@
 #!/bin/sh
 
-# grep "^plugins=(git" ~/.zshrc
-gsed -i "/^plugins=(git/c plugins=(git colored-man-pages brew osx)" ~/.zshrc
-
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-# grep "^ZSH_THEME" ~/.zshrc
-gsed -i '/^ZSH_THEME/c ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
-
 gsed -i '1 i ZSH_DISABLE_COMPFIX="true"' ~/.zshrc
 
 gsed -i '$ a source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' ~/.zshrc
@@ -16,3 +9,10 @@ gsed -i '$ a export PATH="$PATH:/Users/'$USER'/flutter_sdk/flutter/bin"' ~/.zshr
 gsed -i '$ a export GO111MODULE="on"' ~/.zshrc
 gsed -i '$ a export GOPATH="$HOME/go"' ~/.zshrc
 gsed -i '$ a export PATH="$GOPATH/bin:$PATH"' ~/.zshrc
+
+gsed -i "/^plugins=(git/c plugins=(git colored-man-pages brew osx)" ~/.zshrc
+grep "^plugins=(git" ~/.zshrc
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+gsed -i '/^ZSH_THEME/c ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
+grep "^ZSH_THEME" ~/.zshrc

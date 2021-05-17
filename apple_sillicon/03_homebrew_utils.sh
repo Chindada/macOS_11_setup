@@ -12,7 +12,8 @@ brew install zsh-syntax-highlighting
 
 # brew install --cask cheatsheet
 # brew install --cask sourcetree
-# brew install --cask skype
+brew install --cask skype
+
 brew install --cask rectangle
 brew install --cask alfred
 brew install --cask appcleaner
@@ -20,7 +21,7 @@ brew install --cask one-switch
 brew install --cask visual-studio-code
 brew install --cask valentina-studio
 brew install --cask iterm2
-brew install --cask anydesk
+# brew install --cask anydesk
 brew install --cask google-chrome
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 brew install --cask android-sdk
@@ -28,7 +29,7 @@ brew install --cask android-sdk
 eval $(/opt/homebrew/bin/brew shellenv)
 
 git config --global user.name "TimHsu@M1BP"
-git config --global user.email "maochindada@gmail.com"
+git config --global user.email "timhsu.2030@hotmail.com"
 
 sdkmanager
 touch ~/.android/repositories.cfg
