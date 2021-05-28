@@ -1,9 +1,6 @@
 #!/bin/sh
 
 gsed -i '1 i ZSH_DISABLE_COMPFIX="true"' ~/.zshrc
-
-gsed -i '$ a source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' ~/.zshrc
-gsed -i '$ a source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' ~/.zshrc
 gsed -i '$ a export ANDROID_SDK_ROOT="/opt/homebrew/share/android-sdk"' ~/.zshrc
 gsed -i '$ a export PATH="$PATH:/Users/'$USER'/flutter_sdk/flutter/bin"' ~/.zshrc
 gsed -i '$ a export GO111MODULE="on"' ~/.zshrc
