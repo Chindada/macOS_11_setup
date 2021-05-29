@@ -29,6 +29,7 @@ brew install --cask sourcetree
 brew install --cask visual-studio-code
 brew install --cask valentina-studio
 brew install --cask iterm2
+brew install --cask docker
 
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 brew install --cask android-sdk
