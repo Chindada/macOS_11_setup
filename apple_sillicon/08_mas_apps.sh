@@ -14,8 +14,6 @@ mas install 1444383602 &
 
 #LINE
 mas install 539883307 &
-# WeChat
-mas install 836500024 &
 
 # Microsoft Outlook
 mas install 985367838 &
@@ -25,6 +23,8 @@ mas install 462062816 &
 mas install 462058435 &
 # Microsoft Word
 mas install 462054704
+# F5 Access
+mas install 1243219105
 wait
 
 sudo xcodebuild -license

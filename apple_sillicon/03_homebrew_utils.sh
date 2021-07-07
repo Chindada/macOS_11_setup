@@ -6,7 +6,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
 # brew install smartmontools
 brew install git
 git config --global user.name "TimHsu@M1BP"
-git config --global user.email "timhsu.2030@hotmail.com"
+git config --global user.email "maochindada@gmail.com"
 
 brew install gnu-sed
 brew install mas
@@ -18,18 +18,19 @@ gsed -i '$ a source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 
 brew install --cask google-chrome
 brew install --cask microsoft-teams
-brew install --cask skype
+# brew install --cask skype
 
 brew install --cask rectangle
 brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask one-switch
 
-brew install --cask sourcetree
-brew install --cask visual-studio-code
+# brew install --cask sourcetree
 brew install --cask valentina-studio
+brew install --cask visual-studio-code
 brew install --cask iterm2
 brew install --cask docker
+brew install --cask postman
 
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 brew install --cask android-sdk

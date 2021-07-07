@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -q -N "" -C "timhsu.2030@hotmail.com"
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -q -N "" -C "maochindada@gmail.com"
 
 eval "$(ssh-agent -s)"
 
